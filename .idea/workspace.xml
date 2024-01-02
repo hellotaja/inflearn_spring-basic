@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="984e199f-edb5-4d58-8bec-8b172c236351" name="Changes" comment="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="984e199f-edb5-4d58-8bec-8b172c236351" name="Changes" comment="section 4&#10;스프링 컨테이너와 스프링 빈">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemoryMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/MemberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/OrderApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hellotaja&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="61b0cdee-bc74-48af-97dd-2d22c7dd090d" />
+        <option name="url" value="https://github.com/hellotaja/inflearn_spring-basic.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -61,31 +75,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "C:/Users/noorykwon/IdeaProjects/inflearn_spring-basic/withoutSpringProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/noorykwon/IdeaProjects/inflearn_spring-basic/withoutSpringProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\noorykwon\IdeaProjects\inflearn_spring-basic\withoutSpringProject" />
@@ -103,75 +117,83 @@
       <recent name="taja.withoutSpringProject.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderApp">
-    <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.MemberApp" />
-      <module name="withoutSpringProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.OrderApp" />
-      <module name="withoutSpringProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberServiceTest.join" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApplicationContextBasicFindTest.findBeanByNameX">
+    <configuration name="ApplicationContextBasicFindTest.findBeanByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.member.*" />
+          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.member" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.member.MemberServiceTest" />
-      <option name="METHOD_NAME" value="join" />
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextBasicFindTest" />
+      <option name="METHOD_NAME" value="findBeanByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextBasicFindTest.findBeanByName2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.order.*" />
+          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.order" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.order.OrderServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextBasicFindTest" />
+      <option name="METHOD_NAME" value="findBeanByName2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateDiscountPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextBasicFindTest.findBeanByNameX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.discount.*" />
+          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.discount" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.discount.RateDiscountPolicyTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextBasicFindTest" />
+      <option name="METHOD_NAME" value="findBeanByNameX" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextBasicFindTest.findBeanByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="withoutSpringProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextBasicFindTest" />
+      <option name="METHOD_NAME" value="findBeanByType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextInfoTest.findApplicationBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="withoutSpringProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextInfoTest" />
+      <option name="METHOD_NAME" value="findApplicationBean" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderApp" />
-        <item itemvalue="JUnit.OrderServiceTest" />
-        <item itemvalue="JUnit.MemberServiceTest.join" />
-        <item itemvalue="Application.MemberApp" />
-        <item itemvalue="JUnit.RateDiscountPolicyTest" />
+        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByNameX" />
+        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByName2" />
+        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByType" />
+        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByName" />
+        <item itemvalue="JUnit.ApplicationContextInfoTest.findApplicationBean" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +227,9 @@
       <workItem from="1702279464914" duration="830000" />
       <workItem from="1702280314392" duration="3819000" />
       <workItem from="1702339715710" duration="7743000" />
-      <workItem from="1702945519923" duration="7023000" />
+      <workItem from="1702945519923" duration="7130000" />
+      <workItem from="1703723025693" duration="1546000" />
+      <workItem from="1704154655719" duration="9333000" />
     </task>
     <task id="LOCAL-00001" summary="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋">
       <option name="closed" value="true" />
@@ -215,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702339960658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AppConfig로 DIP 지키기">
+      <option name="closed" value="true" />
+      <created>1702959170841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702959170841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +266,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋" />
+    <MESSAGE value="AppConfig로 DIP 지키기" />
+    <MESSAGE value="section 4&#10;스프링 컨테이너와 스프링 빈" />
+    <option name="LAST_COMMIT_MESSAGE" value="section 4&#10;스프링 컨테이너와 스프링 빈" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
