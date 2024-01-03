@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="984e199f-edb5-4d58-8bec-8b172c236351" name="Changes" comment="section 4&#10;스프링 컨테이너와 스프링 빈">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/MemberApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/OrderApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +114,8 @@
       <recent name="taja.withoutSpringProject.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationContextBasicFindTest.findBeanByNameX">
-    <configuration name="ApplicationContextBasicFindTest.findBeanByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApplicationContextExtendTest.findAllBeanByObjectType">
+    <configuration name="ApplicationContextExtendTest.findAllBeanByObjectType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
@@ -127,14 +124,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextBasicFindTest" />
-      <option name="METHOD_NAME" value="findBeanByName" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" />
+      <option name="METHOD_NAME" value="findAllBeanByObjectType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextBasicFindTest.findBeanByName2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextExtendTest.findAllBeanByParentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
@@ -143,14 +140,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextBasicFindTest" />
-      <option name="METHOD_NAME" value="findBeanByName2" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" />
+      <option name="METHOD_NAME" value="findAllBeanByParentType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextBasicFindTest.findBeanByNameX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextExtendTest.findBeanByParentTypeBeanName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
@@ -159,14 +156,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextBasicFindTest" />
-      <option name="METHOD_NAME" value="findBeanByNameX" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" />
+      <option name="METHOD_NAME" value="findBeanByParentTypeBeanName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextBasicFindTest.findBeanByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextExtendTest.findBeanByParentTypeDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
@@ -175,24 +172,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextBasicFindTest" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" />
+      <option name="METHOD_NAME" value="findBeanByParentTypeDuplicate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextSameBeanFindTest.findBeanByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="withoutSpringProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextSameBeanFindTest" />
       <option name="METHOD_NAME" value="findBeanByType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationContextInfoTest.findApplicationBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="withoutSpringProject.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextInfoTest" />
-      <option name="METHOD_NAME" value="findApplicationBean" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByNameX" />
-        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByName2" />
-        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByType" />
-        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByName" />
-        <item itemvalue="JUnit.ApplicationContextInfoTest.findApplicationBean" />
+        <item itemvalue="JUnit.ApplicationContextExtendTest.findAllBeanByObjectType" />
+        <item itemvalue="JUnit.ApplicationContextExtendTest.findAllBeanByParentType" />
+        <item itemvalue="JUnit.ApplicationContextExtendTest.findBeanByParentTypeBeanName" />
+        <item itemvalue="JUnit.ApplicationContextExtendTest.findBeanByParentTypeDuplicate" />
+        <item itemvalue="JUnit.ApplicationContextSameBeanFindTest.findBeanByType" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +226,8 @@
       <workItem from="1702339715710" duration="7743000" />
       <workItem from="1702945519923" duration="7130000" />
       <workItem from="1703723025693" duration="1546000" />
-      <workItem from="1704154655719" duration="9333000" />
+      <workItem from="1704154655719" duration="9946000" />
+      <workItem from="1704242147815" duration="7758000" />
     </task>
     <task id="LOCAL-00001" summary="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋">
       <option name="closed" value="true" />
@@ -247,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702959170841</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="section 4&#10;스프링 컨테이너와 스프링 빈">
+      <option name="closed" value="true" />
+      <created>1704177726243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704177726243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +275,21 @@
     <MESSAGE value="AppConfig로 DIP 지키기" />
     <MESSAGE value="section 4&#10;스프링 컨테이너와 스프링 빈" />
     <option name="LAST_COMMIT_MESSAGE" value="section 4&#10;스프링 컨테이너와 스프링 빈" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/beanfind/ApplicationContextExtendTest.java</url>
+          <line>24</line>
+          <properties class="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" method="findBeanByParentTypeDuplicate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
