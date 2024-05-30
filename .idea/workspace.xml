@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="984e199f-edb5-4d58-8bec-8b172c236351" name="Changes" comment="section 4&#10;스프링 컨테이너와 스프링 빈">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/WithoutSpringProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/WithoutSpringProjectApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -58,6 +60,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,39 +70,44 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ZO37aOLAaBuwv1NAx2jxtFWyD7" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/noorykwon/IdeaProjects/inflearn_spring-basic/withoutSpringProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.BeanDefinitionTest.findApplicationBean.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/noorykwon/IdeaProjects/inflearn_spring-basic/withoutSpringProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="taja.withoutSpringProject" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\noorykwon\IdeaProjects\inflearn_spring-basic\withoutSpringProject" />
       <recent name="C:\Users\noorykwon\IdeaProjects\inflearn_spring-basic" />
@@ -114,7 +124,7 @@
       <recent name="taja.withoutSpringProject.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationContextExtendTest.findAllBeanByObjectType">
+  <component name="RunManager" selected="JUnit.BeanDefinitionTest.findApplicationBean">
     <configuration name="ApplicationContextExtendTest.findAllBeanByObjectType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
@@ -179,17 +189,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextSameBeanFindTest.findBeanByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanDefinitionTest.findApplicationBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
+          <option name="PATTERN" value="taja.withoutSpringProject.beandefinition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextSameBeanFindTest" />
-      <option name="METHOD_NAME" value="findBeanByType" />
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beandefinition" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beandefinition.BeanDefinitionTest" />
+      <option name="METHOD_NAME" value="findApplicationBean" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,13 +214,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanDefinitionTest.findApplicationBean" />
         <item itemvalue="JUnit.ApplicationContextExtendTest.findAllBeanByObjectType" />
         <item itemvalue="JUnit.ApplicationContextExtendTest.findAllBeanByParentType" />
         <item itemvalue="JUnit.ApplicationContextExtendTest.findBeanByParentTypeBeanName" />
         <item itemvalue="JUnit.ApplicationContextExtendTest.findBeanByParentTypeDuplicate" />
-        <item itemvalue="JUnit.ApplicationContextSameBeanFindTest.findBeanByType" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -228,6 +245,7 @@
       <workItem from="1703723025693" duration="1546000" />
       <workItem from="1704154655719" duration="9946000" />
       <workItem from="1704242147815" duration="7758000" />
+      <workItem from="1717067602153" duration="2601000" />
     </task>
     <task id="LOCAL-00001" summary="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋">
       <option name="closed" value="true" />
