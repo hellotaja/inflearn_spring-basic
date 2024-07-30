@@ -1,5 +1,7 @@
 package taja.withoutSpringProject.order;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import taja.withoutSpringProject.discount.DiscountPolicy;
 import taja.withoutSpringProject.discount.FixDiscountPolicy;
 import taja.withoutSpringProject.discount.RateDiscountPolicy;
@@ -7,6 +9,7 @@ import taja.withoutSpringProject.member.Member;
 import taja.withoutSpringProject.member.MemberRepository;
 import taja.withoutSpringProject.member.MemoryMemberRepository;
 
+@Component
 public class OrderServiceImpl implements OrderService {
 
 //    private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
@@ -17,6 +20,7 @@ public class OrderServiceImpl implements OrderService {
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
 
+    @Autowired
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;

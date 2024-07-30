@@ -1,8 +1,9 @@
 package taja.withoutSpringProject.discount;
 
+import org.springframework.stereotype.Component;
 import taja.withoutSpringProject.member.Grade;
 import taja.withoutSpringProject.member.Member;
-
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10;

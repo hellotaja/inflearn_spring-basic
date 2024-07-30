@@ -16,6 +16,7 @@ import taja.withoutSpringProject.order.OrderServiceImpl;
 public class AppConfig {
     // 애플리케이션의 실제 동작에 필요한 구현 객체를 생성
     // 생성자 주입
+    // 수동으로 Bean 을 등록하는 방법
 
     @Bean
     public MemberService memberService() {

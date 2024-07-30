@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="984e199f-edb5-4d58-8bec-8b172c236351" name="Changes" comment="section 4&#10;스프링 컨테이너와 스프링 빈">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-06-18__1_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-06-18__1_51__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+    <list default="true" id="984e199f-edb5-4d58-8bec-8b172c236351" name="Changes" comment="section 5">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-06-18__1_51__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-06-18_오전_1_51_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemoryMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/order/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/singleton/SingletonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,33 +92,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.SingletonTest.singletonService.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/noorykwon/IdeaProjects/inflearn_spring-basic/withoutSpringProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.SingletonTest.singletonService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SingletonTest.springContainer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StatefulServiceTest.statefulServiceSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/noorykwon/IdeaProjects/inflearn_spring-basic/withoutSpringProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\noorykwon\IdeaProjects\inflearn_spring-basic\withoutSpringProject" />
@@ -125,10 +135,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="taja.withoutSpringProject.singleton" />
       <recent name="taja.withoutSpringProject.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonTest.singletonService">
+  <component name="RunManager" selected="JUnit.StatefulServiceTest.statefulServiceSingleton">
     <configuration name="ApplicationContextExtendTest.findAllBeanByObjectType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
@@ -140,38 +151,6 @@
       <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
       <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" />
       <option name="METHOD_NAME" value="findAllBeanByObjectType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationContextExtendTest.findAllBeanByParentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="withoutSpringProject.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" />
-      <option name="METHOD_NAME" value="findAllBeanByParentType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationContextExtendTest.findBeanByParentTypeBeanName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="withoutSpringProject.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" />
-      <option name="METHOD_NAME" value="findBeanByParentTypeBeanName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -209,6 +188,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest.springContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="withoutSpringProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taja.withoutSpringProject.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.singleton" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="springContainer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatefulServiceTest.statefulServiceSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="withoutSpringProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taja.withoutSpringProject.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.singleton" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.singleton.StatefulServiceTest" />
+      <option name="METHOD_NAME" value="statefulServiceSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WithoutSpringProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="withoutSpringProject.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="taja.withoutSpringProject.WithoutSpringProjectApplication" />
@@ -218,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatefulServiceTest.statefulServiceSingleton" />
+        <item itemvalue="JUnit.SingletonTest.springContainer" />
         <item itemvalue="JUnit.SingletonTest.singletonService" />
         <item itemvalue="JUnit.SingletonTest.pureContainer" />
         <item itemvalue="JUnit.ApplicationContextExtendTest.findAllBeanByObjectType" />
-        <item itemvalue="JUnit.ApplicationContextExtendTest.findAllBeanByParentType" />
-        <item itemvalue="JUnit.ApplicationContextExtendTest.findBeanByParentTypeBeanName" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +261,12 @@
       <workItem from="1704154655719" duration="9946000" />
       <workItem from="1704242147815" duration="7758000" />
       <workItem from="1718791382802" duration="1817000" />
+      <workItem from="1718793238305" duration="95000" />
+      <workItem from="1720403217460" duration="6000" />
+      <workItem from="1721212316100" duration="1520000" />
+      <workItem from="1721300264477" duration="3662000" />
+      <workItem from="1722243633596" duration="744000" />
+      <workItem from="1722304569605" duration="10589000" />
     </task>
     <task id="LOCAL-00001" summary="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋">
       <option name="closed" value="true" />
@@ -275,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704177726243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="section 5">
+      <option name="closed" value="true" />
+      <created>1718793286000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718793286000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +321,8 @@
     <MESSAGE value="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋" />
     <MESSAGE value="AppConfig로 DIP 지키기" />
     <MESSAGE value="section 4&#10;스프링 컨테이너와 스프링 빈" />
-    <option name="LAST_COMMIT_MESSAGE" value="section 4&#10;스프링 컨테이너와 스프링 빈" />
+    <MESSAGE value="section 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="section 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,6 +335,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/singleton/StatefulServiceTest.java</url>
+          <line>13</line>
+          <properties class="taja.withoutSpringProject.singleton.StatefulServiceTest" method="statefulServiceSingleton">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
