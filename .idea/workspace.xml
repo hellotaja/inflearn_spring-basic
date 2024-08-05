@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="984e199f-edb5-4d58-8bec-8b172c236351" name="Changes" comment="section 5">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-06-18__1_51__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-06-18_오전_1_51_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="984e199f-edb5-4d58-8bec-8b172c236351" name="Changes" comment="section 6 컴포넌트 스캔">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/discount/RateDiscountPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/member/MemoryMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/main/java/taja/withoutSpringProject/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/scan/AutoAppConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/scan/AutoAppConfigTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +27,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="withoutSpringProject" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -47,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,6 +73,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -94,6 +92,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.AutoAppConfigTest.basicScan.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutoAppConfigTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ComponentFilterAppConfigTest.filterScan.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SingletonTest.singletonService.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SingletonTest.springContainer.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.StatefulServiceTest.statefulServiceSingleton.executor&quot;: &quot;Run&quot;,
@@ -139,50 +140,49 @@
       <recent name="taja.withoutSpringProject.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StatefulServiceTest.statefulServiceSingleton">
-    <configuration name="ApplicationContextExtendTest.findAllBeanByObjectType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ComponentFilterAppConfigTest.filterScan">
+    <configuration name="AutoAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.beanfind.*" />
+          <option name="PATTERN" value="taja.withoutSpringProject.scan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.beanfind.ApplicationContextExtendTest" />
-      <option name="METHOD_NAME" value="findAllBeanByObjectType" />
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.scan" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.scan.AutoAppConfigTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="withoutSpringProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taja.withoutSpringProject.scan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.scan" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.scan.AutoAppConfigTest" />
+      <option name="METHOD_NAME" value="basicScan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.pureContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComponentFilterAppConfigTest.filterScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="withoutSpringProject.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.singleton.*" />
+          <option name="PATTERN" value="taja.withoutSpringProject.scan.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.singleton" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="pureContainer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTest.singletonService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="withoutSpringProject.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taja.withoutSpringProject.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.singleton" />
-      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="singletonService" />
+      <option name="PACKAGE_NAME" value="taja.withoutSpringProject.scan.filter" />
+      <option name="MAIN_CLASS_NAME" value="taja.withoutSpringProject.scan.filter.ComponentFilterAppConfigTest" />
+      <option name="METHOD_NAME" value="filterScan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -229,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComponentFilterAppConfigTest.filterScan" />
+        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
+        <item itemvalue="JUnit.AutoAppConfigTest" />
         <item itemvalue="JUnit.StatefulServiceTest.statefulServiceSingleton" />
         <item itemvalue="JUnit.SingletonTest.springContainer" />
-        <item itemvalue="JUnit.SingletonTest.singletonService" />
-        <item itemvalue="JUnit.SingletonTest.pureContainer" />
-        <item itemvalue="JUnit.ApplicationContextExtendTest.findAllBeanByObjectType" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +266,9 @@
       <workItem from="1721212316100" duration="1520000" />
       <workItem from="1721300264477" duration="3662000" />
       <workItem from="1722243633596" duration="744000" />
-      <workItem from="1722304569605" duration="10589000" />
+      <workItem from="1722304569605" duration="10776000" />
+      <workItem from="1722385134842" duration="14701000" />
+      <workItem from="1722850931597" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="레포지토리 새로 생성해서 기존 진행하던 프로젝트 커밋">
       <option name="closed" value="true" />
@@ -300,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718793286000</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="section 6 컴포넌트 스캔">
+      <option name="closed" value="true" />
+      <created>1722333859427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722333859427</updated>
+    </task>
+    <task id="LOCAL-00006" summary="section 6 컴포넌트 스캔">
+      <option name="closed" value="true" />
+      <created>1722333922224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722333922224</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +340,8 @@
     <MESSAGE value="AppConfig로 DIP 지키기" />
     <MESSAGE value="section 4&#10;스프링 컨테이너와 스프링 빈" />
     <MESSAGE value="section 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="section 5" />
+    <MESSAGE value="section 6 컴포넌트 스캔" />
+    <option name="LAST_COMMIT_MESSAGE" value="section 6 컴포넌트 스캔" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,6 +363,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/withoutSpringProject/src/test/java/taja/withoutSpringProject/scan/filter/ComponentFilterAppConfigTest.java</url>
+          <line>17</line>
+          <properties class="taja.withoutSpringProject.scan.filter.ComponentFilterAppConfigTest" method="filterScan">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
